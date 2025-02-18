@@ -31,4 +31,4 @@ async register(firstName, lastName, email, contact, username, password) {
     async click(selector) {
         await this.page.click(selector);
     }
-}
+};
